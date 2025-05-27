@@ -1,0 +1,12 @@
+var nombre = "Seba";
+var edad = 32;
+var isDeveloper = true;
+var mes;
+var nulo = null;
+// let simbolo: symbol = Symbol("mi simbolo");
+var fechaNacimiento = new Date("1991-01-01");
+console.log("Hola Mundo");
+console.log("Hola ".concat(nombre));
+console.log("mes inicial: ".concat(mes));
+mes = "Enero";
+console.log("mes actualizado: ".concat(mes));
