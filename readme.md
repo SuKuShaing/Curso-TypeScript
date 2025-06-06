@@ -17,6 +17,7 @@ En TypeScript, los tipos de datos son fundamentales para definir la naturaleza d
 12. bigint: // Números enteros grandes.
 13. symbol: // Un tipo de dato único e inmutable, utilizado para identificar propiedades de objetos.
 14. date: // Representa fechas y horas.
+15. <T>: // Tipado genérico, permite usar cualquier tipo de dato y respetar el asignado al momento de usarlo.
 ```
 
 #### Typos exclusivas para funciones:
