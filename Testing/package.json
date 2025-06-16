@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@jest/types": "^30.0.0",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
