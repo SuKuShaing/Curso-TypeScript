@@ -18,7 +18,7 @@ export class Usuario {
     }
 
     getProfile(): string {
-        return `El usuario es ${this.nombre}, se dedica a ${this.profesion} y tiene ${this.trayectoria} aÃ±os de experiencia.`;
+        return `El usuario es ${this.nombre}, se dedica a ${this.profesion} y tiene ${this.trayectoria} años de experiencia.`;
     }
 
     isStillActive(): boolean {

@@ -13,7 +13,7 @@ describe("Usuario Class", () => {
 
 	test("should return the correct profile", () => {
 		const expectedProfile =
-			"El usuario es Amin, se dedica a Developer y tiene 10 aÃ±os de experiencia.";
+			"El usuario es Amin, se dedica a Developer y tiene 10 años de experiencia.";
 		expect(usuario.getProfile()).toBe(expectedProfile);
 	});
 
