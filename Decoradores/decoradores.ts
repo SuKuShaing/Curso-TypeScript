@@ -21,6 +21,7 @@ class Persona2 {
     }
 
     despedir!: (despedida: string) => string; // esto es para que typescript sepa que el método despedir existe
+    // el ! le dice a TypeScript: "confía en mí, este método despedir existirá en tiempo de ejecución, aunque tú no puedas verlo en el análisis estático
 }
 
 let usuario = new Persona2("Juan", 20);
